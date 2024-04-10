@@ -4,3 +4,18 @@
 p {
   color:#182641
 }
+
+.naddpod-photo {
+  margin: 10px;
+  max-width: 400px;
+}
+
+.bob-photo {
+  margin: 10px;
+  max-width: 700px;
+}
+
+.duckteam-photo {
+  margin: 10px;
+  max-width: 700px;
+}
