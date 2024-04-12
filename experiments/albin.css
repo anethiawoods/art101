@@ -1,0 +1,12 @@
+body {
+    background-color: #10dea0;
+    font-family:sans-serif;
+  }
+  
+  h1 {
+    font-family:Impact;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    font-size: 400%;
+    color:rgb(203, 27, 0)
+  }
