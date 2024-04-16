@@ -5,12 +5,7 @@
   max-width: 500px;
 }
 
-.frogbus-photo {
-  margin: 10px;
-  max-height: 400px;
-}
-
-.swing-photo {
+.frogbus-photo,.swing-photo {
   margin: 10px;
   max-height: 400px;
 }
