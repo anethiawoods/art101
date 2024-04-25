@@ -1,21 +1,20 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/* Lab 4 - Data Types and Variables
+Declaring & Outputting variables
+Author: L Tachibana
+Date: 24 April 2024 */
 
-// Constants
+//Declare variables
+let carMake = "Honda";
+let carModel = "Civic";
+let carYear = 2004;
+let carColour = "red";
+let ownIt = true;
+let currentYear = 2024;
+let carAge = currentYear-carYear;
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Output variables
+document.writeln("Car make: ",carMake,"<br>");
+document.writeln("Car model: ",carModel,"<br>");
+document.writeln("Car colour: ",carColour,"<br>");
+document.writeln("Car year: ",carYear,"<br>");
+document.writeln("Car age: ",carAge,"<br>");

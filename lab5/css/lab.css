@@ -1,9 +1,53 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  background-image: url(../img/star_bg.jpg);
+  margin: 10px;
+  padding: 10px;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 2px #badbdd;
+    background-color:rgba(47, 46, 118, 0.6);
+    
   }
+
+h1,h2 {
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  background-color:rgba(47, 46, 118, 0.6);
+}
+
+p {
+  color:#badbdd 
+}
+
+ a:link {
+  color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+  color: #85b1eb;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(12, 153, 247);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 225, 255);
+} 
+
+.youdriveafastcar {
+  max-height: 200px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
