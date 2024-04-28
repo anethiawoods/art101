@@ -1,21 +1,43 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/* Lab 6 - Arrays and Objects
+Declaring Arrays & Objects
+Author: L Tachibana
+Date: 28 April 2024 */
 
-// Constants
+// Declare Variables
+let c3Charas = ["Kenna","Solum","Callie","Calder"];
 
-// Functions
+//Object 1 - Callie
+let callie = {
+  name: "Calliope Petrichor",
+  level: 11,
+  season: "Winter",
+  class: ["Bard","Paladin"],
+  pets: {
+    duck: "Foster",
+    serpents: ["Honeysuckle","Liquorice"],
+    fish: "Gunk",
+  },
+};
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//Object 2 - Sol
+let sol = {
+  name: "Solum Bufo",
+  level: 11,
+  height: "Short King",
+  class: "Monk",
+  allies: ["Albin","Swag"],
+  items: {
+    scarf: "Scarf of Displacement",
+    tag: "SOLUM plate",
+  },
+};
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Output
+document.writeln("Characters in Campaign 3: ", c3Charas, "<br>");
+document.writeln("Facts about Callie: <pre>", 
+    JSON.stringify(callie, null, '\t'), "</pre>", "<br>");
+document.writeln("Facts about Sol: <pre>", 
+    JSON.stringify(sol, null, '\t'), "</pre>", "<br>");
+sol.says = function (){
+  document.writeln ("Frogson and Holmes!");
+};
