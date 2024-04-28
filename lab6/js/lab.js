@@ -30,6 +30,9 @@ let sol = {
     scarf: "Scarf of Displacement",
     tag: "SOLUM plate",
   },
+  says: function() {
+    document.writeln("Frogson and Holmes!");
+  }
 };
 
 //Output
@@ -38,6 +41,3 @@ document.writeln("Facts about Callie: <pre>",
     JSON.stringify(callie, null, '\t'), "</pre>", "<br>");
 document.writeln("Facts about Sol: <pre>", 
     JSON.stringify(sol, null, '\t'), "</pre>", "<br>");
-sol.says = function (){
-  document.writeln ("Frogson and Holmes!");
-};
