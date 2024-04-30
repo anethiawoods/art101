@@ -19,6 +19,11 @@ let callie = {
   },
 };
 
+//Define function to say catchphrase
+function sayPhrase(){
+  return "Frogson and Holmes!"
+}
+
 //Object 2 - Sol
 let sol = {
   name: "Solum Bufo",
@@ -30,9 +35,7 @@ let sol = {
     scarf: "Scarf of Displacement",
     tag: "SOLUM plate",
   },
-  says: function() {
-    document.writeln("Frogson and Holmes!");
-  }
+  quote: sayPhrase(),
 };
 
 //Output
