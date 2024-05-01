@@ -1,9 +1,41 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  background-image: url(../img/26b8f1a0d3308bd834ad7152b6062e1a.gif);
+  margin: 10px;
+  padding: 10px;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 2px #1a0e2d;
+    background-color:rgba(23, 33, 80, 0.688);
   }
+
+h1 {
+  color: #271e58;
+  text-align: center;
+  text-shadow: -1px -1px 0 #e6f2ef, 1px -1px 0 #e6f2ef, -1px 1px 0 #e6f2ef, 1px 1px 0 #e6f2ef;}
+
+h2 {
+  color:#cfe03a;
+}
+
+p{
+  color:#f9f4f9
+}
+
+/* visited link */
+a:visited {
+  color: #85b1eb;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(12, 153, 247);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 225, 255);
+} 
