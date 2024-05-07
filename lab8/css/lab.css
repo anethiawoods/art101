@@ -1,5 +1,5 @@
 body,#content {
-  background-color: #8cc8b7;
+  background-color: #2c1d36;
 }
 
 #content {
@@ -9,19 +9,22 @@ body,#content {
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #234a59;
-    background-color: #e1bb8c;
+    border: solid 2px #83a9b8;
+    background-color: #1f192b;
   }
 
 h1 {
-  color: #8f3466;
-  text-align: center;
-  text-shadow: -1px -1px 0 #e6f2ef, 1px -1px 0 #e6f2ef, -1px 1px 0 #e6f2ef, 1px 1px 0 #e6f2ef;}
+  color: #f2e8f6;
+  text-align: center;}
 
 h2 {
-  color:#234a59;
+  color:#905eb9;
 }
 
 p{
-  color:#132c36
+  color:#f2e8f6
+}
+
+pre{
+  color:#905eb9
 }

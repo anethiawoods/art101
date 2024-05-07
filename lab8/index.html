@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 7</title>
+	<title>Lab 8</title>
 
   	<meta charset="UTF-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,24 +15,44 @@
 <body>
 	<main>
 		<section>
-			<h1>Lab 7 - </h1>
+			<h1>Lab 8 - Anon Functions and Callbacks</h1>
 			<div class="minor-section">
 					<h2>What I did for this Lab</h2>
-					<p>.</p>
+					<p>For this lab, we wrote named & anonymous function into our javascript files, and used callbacks.</p>
 			
 					<h2>Difficulties encountered</h2>
-					<p>.
+					<p>I didn't experience too much difficult with entering the code into javascript, especially after experimenting in the console
 					</p>
 					
 					<h2>The results...</h2>
-					<p>.</p>
-			</div>
+					<p>Here is the code that was put into javascript:</p>
+					<pre><code>
+/* Lab 8 - Anon Functions and Callbacks
+Using Callbacks with named & anonymous functions
+Author: L Tachibana
+Date: 2 May 2024 */
 
-			<div class="minor-section">
-					<h2>Script Output</h2>
-						<div id="output">
-							<p><script type="text/javascript" src="./js/lab.js"></script></p>
-						</div>
+//Declaring array of numbers
+let definitelyRandomNumbers = [42,413,612,1025,222,1,2,20];
+
+//Declaring function (that subtracts 10 from number)
+function minusTen(a){
+    return a-10;
+}
+
+//Map anon function onto array
+    //function squares the numbers
+definitelyRandomNumbers.map(
+    function(a){
+      return a**2
+    }
+);
+
+//Map the named function onto array
+let arrayMinusTen = definitelyRandomNumbers.map(minusTen);
+console.log("Results: "+ arrayMinusTen);
+					</code></pre>
+
 			</div>
 
 			<div class="minor-section">
