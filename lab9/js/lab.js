@@ -1,4 +1,13 @@
-/* Lab 6 - Arrays and Objects
-Declaring Arrays & Objects
+/* Lab 9 - Libraries & jQuery
+----
 Author: L Tachibana
-Date: 28 April 2024 */
+Date: ---- 2024 */
+
+//figure out what theyll do later... maybe... lets see !
+$("#button-challenge")
+
+//
+$("#button-problem")
+
+//
+$("#button-results")
