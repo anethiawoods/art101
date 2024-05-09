@@ -1,9 +1,7 @@
 body,#content {
   background-image: url(../img/a5ab7d56e3da8c03b3a67779da7716c0.gif);
   background-size: 100vw 100vh;
-    background-repeat: no-repeat;
 }
-
 
 #content {
   border: solid 0px #0b8c68;
@@ -25,6 +23,29 @@ h2 {
   color:#1c6c7a;
 }
 
+.h1-special {
+  color:#ac1f57;
+}
+
 p{
-  color:#121435
+  color:#1b1e4f;
+}
+
+#challenges p {
+  display:none;
+}
+
+.challenge-special {
+  display:block!important;
+}
+
+.problems-special {
+  font-size: x-large;
+  font-weight: bold;
+  font-family:'Lucida Sans Unicode';
+  color:#ff0080;
+}
+
+.solling {
+  max-width: 100px;
 }
