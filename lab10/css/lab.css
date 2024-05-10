@@ -49,3 +49,21 @@ button {
   font-size: 14.2px;
   line-height: 19px;
 }
+
+#parent {
+  text-align: right;
+}
+
+.reply p {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 60%;
+  margin: 3px;
+  padding: 8px;
+  border-radius: 7.5px;
+  background-color: #005c4b;
+  color: #e9edef;
+  font-family: 'Segoe UI';
+  font-size: 14.2px;
+  line-height: 19px;
+}

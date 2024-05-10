@@ -22,3 +22,18 @@ $("#yapping-generator").click(function(){
     // append a new div to our output div
     $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
+
+function respond() {
+  //retrieve user's reply
+  let reply = window.prompt("Type reply:");
+  //return reply
+  return reply;
+};
+
+//when button is clicked, run 'respond' function
+$("#respond").click(function(){
+  //get the reply
+  let newReply = respond();
+  //append as a new div to the output div
+  $("#output").append('<div id="parent"><div class="reply"><p>' + newReply + '</p></div><div>');
+});
