@@ -1,5 +1,5 @@
 body,#content {
-  background-color: #8cc8b7;
+  background-color: #121b20;
 }
 
 #content {
@@ -9,28 +9,33 @@ body,#content {
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #234a59;
-    background-color: #e1bb8c;
+    border: solid 2px #00a884;
+    background-color: #1d3944;
   }
 
 #output {
   background-image: url(../img/8c98994518b575bfd8c949e91d20548b.jpg);
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 2px #234a59;
 }
 
 h1 {
-  color: #8f3466;
+  color: #00a884;
   text-align: center;
-  text-shadow: -1px -1px 0 #e6f2ef, 1px -1px 0 #e6f2ef, -1px 1px 0 #e6f2ef, 1px 1px 0 #e6f2ef;}
-
-h2 {
-  color:#234a59;
 }
 
+h2 {
+  color:#00a884;
+}
+
+#output h2 {
+  color:#234a59;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+
 p{
-  color:#132c36
+  color:#b4c3ca
 }
 
 button {
@@ -43,7 +48,7 @@ button {
   margin: 3px;
   padding: 8px;
   border-radius: 7.5px;
-  background-color: #202c33;
+  background-color: #2a3941;
   color: #e9edef;
   font-family: 'Segoe UI';
   font-size: 14.2px;
@@ -67,3 +72,19 @@ button {
   font-size: 14.2px;
   line-height: 19px;
 }
+
+/* visited link */
+a:visited {
+  color: #00a884;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+  color: #4fdebf;
+}
+
+/* selected link */
+a:active {
+  color:#c1e6de;
+} 
