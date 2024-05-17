@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="./js/lab.js"></script>
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
 	<main>
@@ -19,24 +19,26 @@
 			<div class="minor-section">
 				<div id="challenges">
 					<h2>What I did for this Lab</h2>
-					<p>text</p>
+					<p>For this lab, we needed to add an input form field to our page, that would take in a value and return it to the site</p>
 				</div>	
 
 				<div id="problems">
 					<h2>Difficulties encountered</h2>
-					<p>text</p>
+					<p>Overall it was a pretty straightforward process. The only problem arose when I was trying to figure out how I wanted the sorted nate to be output on the site. At first, I used 'append'. However, every time I put in a new value into the input field, it would keep adding on to the back of the old answers. Alternatively if I used the 'html' to replace the entire output ID, then you would have to restart the page to try another value... So instead I put in a little 'p' tag below where the sorted name would be output to</p>
 				</div>
 				
 				<div id="results">
 					<h2>The results...</h2>
-					<p>text</p>
+					<p>The whole thing was pretty mangeable, and the basic code works sa it should</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
 					<h2>Srcipt Output</h2>
 						<div id="output">
-							<p><script type="text/javascript" src="./js/lab.js"></script></p>
+							<input type="text" id="input-here" placeholder="What's your name?">
+							<button id ="my-button">Submit!</button>
+							<p id="output-name"> Your new name is: ....</p>
 						</div>
 			</div>
 
