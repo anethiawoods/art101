@@ -1,27 +1,40 @@
-body,#content {
-  background-color: #8cc8b7;
-}
-
-#content {
-  border: solid 0px #0b8c68;
+body {
+  background-image: url(../img/fantasy_pixel_background_by_artificialhub_dfwy0mp-fullview.jpg);
+  background-size: 100vw 100vh;
 }
 
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #234a59;
-    background-color: #e1bb8c;
+    border: solid 2px #391142;
+    background-color:rgba(75, 22, 82, 0.688);
   }
 
 h1 {
-  color: #8f3466;
+  color: #351e58;
   text-align: center;
   text-shadow: -1px -1px 0 #e6f2ef, 1px -1px 0 #e6f2ef, -1px 1px 0 #e6f2ef, 1px 1px 0 #e6f2ef;}
 
 h2 {
-  color:#234a59;
+  color:#f98674;
 }
 
 p{
-  color:#132c36
+  color:#fff0e7
 }
+
+/* visited link */
+a:visited {
+  color: #bf85eb;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(181, 12, 247);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 0, 170);
+} 
