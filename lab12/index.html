@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="./js/lab.js"></script>
+	<script type="text/javascript" src="./js/lab.js"DEFER></script>
 </head>
 <body>
 	<main>
@@ -19,27 +19,27 @@
 			<div class="minor-section">
 				<div id="challenges">
 					<h2>What I did for this Lab</h2>
-					<p>text</p>
+					<p>For this lab I put an input form field for users to enter their fullname. Then I used conditionals + jquery to assign the user a NADDPOD character based on the string. To add more complexity, I assigned characters on both the <i>length</i> and <i>divisibility</i> of the string! </p>
 				</div>	
 
 				<div id="problems">
 					<h2>Difficulties encountered</h2>
-					<p>text</p>
+					<p>I had so many problems with this. For a start I couldn't figure out the code at all... I pretty much had to rewatch the lecture, I think I had forgotten some pretty basic stuff. After that I fiddled with the code on JS Bin. That worked fine, until I tried transferring it to VS Code editor. It took me a long while debugging to figure it out... After narrowing it down, I realised the problem was that no matter what clicking the button wouldn;t do anything, so I figured there must have been something wrong with the JQUERY/JS File links. Eventually I realised I forgot to write 'DEFER' when linking the JS file!</p>
 				</div>
 				
 				<div id="results">
 					<h2>The results...</h2>
-					<p>text</p>
+					<p>The results work pretty well! Catastrophically late, but finished!!</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
+				<div id="output">
 					<h2>Output</h2>
-						<div id="output">
-							<input type="text" placeholder="Enter your name!" id="input">
-							<p></p>
-							<button id="button">Submit!</button>
-						</div>
+					<input type="text" placeholder="Enter your full name!" id="input">
+					<button id="button">Submit!</button>
+					<p id="output-name"> Your assigned NADDPOD Character is:...</p>
+				</div>
 			</div>
 
 			<div class="minor-section">
