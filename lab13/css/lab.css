@@ -50,6 +50,12 @@ p.text {
  font-weight: bold;
 };
 
+/* normal link */
+a:link {
+  color: #f7dd81;
+  ;
+}
+
 /* visited link */
 a:visited {
   color: #bd8a47;
