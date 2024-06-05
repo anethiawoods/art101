@@ -1,5 +1,5 @@
 body,#content {
-  background-color: #4fb69e;
+  background-color: #cf9b58;
 }
 
 #content {
@@ -9,17 +9,17 @@ body,#content {
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #efe3a8;
-    background-color: #203c3a;
+    border: solid 2px #f4e8d1;
+    background-color: #4d342d;
   }
 
 h1 {
-  color: #046355;
+  color: #a84e0a;
   text-align: center;
 }
 
 h2, hr {
-  color:#d1ad5e;
+  color:#e8ba65;
 }
 
 hr {
@@ -27,7 +27,7 @@ hr {
 }
 
 p{
-  color:#d1f4f0
+  color:#f4e8d1
 }
 
 .centre {
@@ -71,8 +71,3 @@ a:hover {
 a:active {
   color: #e08816;
 } 
-
-.photo {
-  margin: 10px;
-  max-width: 1000px;
-}

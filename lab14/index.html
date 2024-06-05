@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 10</title>
+	<title>Lab 14</title>
 
   	<meta charset="UTF-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,29 +15,32 @@
 <body>
 	<main>
 		<section>
-			<h1>Lab 10 - JavaScript for the Web</h1>
+			<h1>Lab 14 - Debugging Tools & Strategies</h1>
 			<div class="minor-section">
 				<div id="challenges">
 					<h2>What I did for this Lab</h2>
-					<p>text</p>
+					<p>This lab was pretty simple, just go back and debug some older stuff. I chose to do Lab 12, since I couldn't get my button to work.</p>
 				</div>	
 
 				<div id="problems">
 					<h2>Difficulties encountered</h2>
-					<p>text</p>
+					<p>I actually had a surprisingly simple time with this? When I was first working on the lab before I got very frustrated and confused and couldn't figure anything out. But after like a week of just letting it be, and then coming back with a clearer head and a more systematic approach to debugging... I figured out the problem pretty quickly.</p>
 				</div>
 				
 				<div id="results">
 					<h2>The results...</h2>
-					<p>text</p>
+					<p>Lab 12 works now!</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
-					<h2>Srcipt Output</h2>
-						<div id="output">
-							<p><script type="text/javascript" src="./js/lab.js"></script></p>
-						</div>
+					<h2>Debugging</h2>
+					<p>For this assignment, I worked on lab 12. Previously I was having a lot of problems. No matter what I did I couldn't get the button to click right? I kept trying to re-edit the jquery & the functions and reviewing my javascript code but nothing was working.</p>
+					<p>To debug, I first did the 'commenting out' strategy. I commented out all the code except for a console.log attatched to the button. The button still didn't work. So I figured out there must be something wrong with the button. I reviewed the code, which looked fine, so I figured out it must be something to do with my html file. Maybe I had forgotten to link the jquery, so the listening even wasn't working? After some comparison with earlier labs, I realised the problem was that I hadn't added the 'DEFER' tag when I linked the JS File</p>
+					<img class="photo" src="./img/correced-code.png">
+					<p>After I fixed that, I got the button to print the console.log text! Then I could put back in all my commented out code! After that, the output was working fine and the problem was fixed... yay!</p>
+					<img class="photo" src="./img/output-works.png">
+					<div id="output"></div>
 			</div>
 
 			<div class="minor-section">
