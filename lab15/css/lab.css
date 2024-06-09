@@ -1,0 +1,70 @@
+body,#content {
+  background-color: #cf9b58;
+}
+
+#content {
+  border: solid 0px #0b8c68;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 2px #f4e8d1;
+    background-color: #4d342d;
+  }
+
+h1 {
+  color: #a84e0a;
+  text-align: center;
+}
+
+h2, hr {
+  color:#e8ba65;
+}
+
+hr {
+  margin: 15px;
+}
+
+p{
+  color:#f4e8d1
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+}
+
+
+#output p {
+ font-size: 100%;
+ margin-top: 0;
+ margin-bottom: 15px;
+}
+
+p.text {
+ color: rgb(212, 144, 17);
+ font-weight: bold;
+};
+
+/* normal link */
+a:link {
+  color: #f7dd81;
+  ;
+}
+
+/* visited link */
+a:visited {
+  color: #bd8a47;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c28230;
+}
+
+/* selected link */
+a:active {
+  color: #e08816;
+} 

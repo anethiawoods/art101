@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15 - AJAX</title>
+
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/lab.js"DEFER></script>
+</head>
+<body>
+	<main>
+		<section>
+			<h1>Lab 15 - AJAX</h1>
+			<div class="minor-section">
+				<div id="challenges">
+					<h2>What I did for this Lab</h2>
+					<p>For this lab I used AJAX & Jquery to retrieve data about DND Spells </p>
+				</div>	
+
+				<div id="problems">
+					<h2>Difficulties encountered</h2>
+					<p>I had some difficulties parsing the JSON, but I eventually figured out I needed to use 'data.results' not 'data.data'</p>
+				</div>
+				
+				<div id="results">
+					<h2>The results...</h2>
+					<p>When the button is clicked, it generates a random DND 5e Spell!</p>
+				</div>
+			</div>
+
+			<div class="minor-section">
+					<h2>What Spell should I cast...</h2>
+					<button id="button">I cast...</button>
+					<p></p>
+					<div id="output"></div>
+			</div>
+
+			<div class="minor-section">
+				<nav id="links">
+					<p> <a href="../index.html"> Back to home! </a> </p>
+				</nav>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
