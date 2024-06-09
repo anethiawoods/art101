@@ -1,5 +1,5 @@
 body,#content {
-  background-color: #cf9b58;
+  background-color: #4fb69e;
 }
 
 #content {
@@ -9,34 +9,21 @@ body,#content {
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #f4e8d1;
-    background-color: #4d342d;
+    border: solid 2px #efe3a8;
+    background-color: #203c3a;
   }
 
 h1 {
-  color: #a84e0a;
+  color: #046355;
   text-align: center;
 }
 
-h2, hr {
-  color:#e8ba65;
-}
-
-hr {
-  margin: 15px;
+h2 {
+  color:#d1ad5e;
 }
 
 p{
-  color:#f4e8d1
-}
-
-.centre {
-  display: flex;
-  justify-content: center;
-}
-
-#output {
-  column-width: 200px
+  color:#d1f4f0
 }
 
 #output p {
